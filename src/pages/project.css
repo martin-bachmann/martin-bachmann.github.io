@@ -1,0 +1,68 @@
+.project-h2 {
+  align-self: center;
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: rgba(7, 55, 61, 0.644) 4px 4px;
+}
+
+.project-h3 {
+  font-size: 2.3em;
+  border-bottom: 3px solid #0b3f46;
+  padding-bottom: 0.1em;
+}
+
+.p-techs {
+  font-size: 1.5em;
+}
+
+.p-description {
+  font-size: 1.4em;
+}
+
+.project-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Barra esquerda */
+.project-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
+  gap: 1em;
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
+  box-shadow: rgb(11, 63, 70) 5px 5px;
+  width: 22vw;
+  padding: 0.3em;
+}
+
+/* Seção principal */
+.project-article {
+  display: flex;
+  flex-direction: column;
+  width: 68vw;
+  padding: 1em;
+  background-color: darkcyan;
+  box-shadow: rgb(11, 63, 70) 5px 5px;
+  margin-right: 3em;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.project-techs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}

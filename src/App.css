@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9vw;
+  /* border: solid 1px black; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-img {
+  position: fixed;
+  z-index: -10;
+  width:110vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3 {
+  font-size: 2.3em;
+  border-bottom: 3px solid #0b3f46;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+.p-grande {
+  font-size: 1.3em;
+}
+
+.p-pequeno {
+  font-size: 1em;
+}
+
+/* Header */
+.header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#008b8b;
+  margin-top: 4em;
+  height: 8em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-title1 {
+  align-self: center;
+  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2.5em;
+  text-shadow: rgba(7, 55, 61, 0.644) 5px 5px;
+}
+
+.img-perfil {
+  width: 10vw;
+  box-shadow: rgb(11, 63, 70) 7px 7px;
+}
+
+/* Botões */
+.header-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.8em;
+  margin-left: 1em;
+  gap: 1.5em;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  gap: 0.3em;
+  text-decoration: none;
+  background-color: darkcyan;
+  box-shadow: rgb(11, 63, 70) 5px 5px;
+}
+
+a img {
+  width: 1.5em;
+}
+
+/* Main */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Barra esquerda */
+.main-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkcyan;
+  box-shadow: rgb(11, 63, 70) 5px 5px;
+  margin-left: 1em;
+}
+
+.bio-section {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 1em;
+  gap: 0.5em;
+}
+
+/* Seção principal */
+.main-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  padding: 1em;
+  gap: 1em;
+  background-color: darkcyan;
+  box-shadow: rgb(11, 63, 70) 5px 5px;
+  margin-right: 3em;
+}
+
+.habilidade {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
