@@ -35,27 +35,27 @@ class Project extends Component {
         {isLoading ? (
           <Loading />
         ) : (
-          <main class="project-main">
-            <aside class="project-aside">
+          <main className="project-main">
+            <aside className="project-aside">
               {images.map(({ title, link }) => (
-                <section class="project-images">
+                <section className="project-images">
                   <img src={link} alt={title} />
                 </section>
               ))}
             </aside>
 
-            <article class=".project-article">
-              <h2 class="project-h2">{title}</h2>
-              <div class="project-description">
-                <h3 class="project-h3">Descrição</h3>
+            <article className=".project-article">
+              <h2 className="project-h2">{title}</h2>
+              <div className="project-description">
+                <h3 className="project-h3">Descrição</h3>
                 {description.map((p) => (
-                  <p class="p-description">{p}</p>
+                  <p className="p-description">{p}</p>
                 ))}
               </div>
-              <div class="project-techs">
-                <h3 class="project-h3">Ferramentas utilizadas</h3>
+              <div className="project-techs">
+                <h3 className="project-h3">Ferramentas utilizadas</h3>
                 {techs.map((tech) => (
-                  <p class="p-techs">{tech}</p>
+                  <p className="p-techs">{tech}</p>
                 ))}
               </div>
               <Button />

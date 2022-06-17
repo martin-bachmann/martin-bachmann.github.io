@@ -5,43 +5,43 @@ import projects from "../data/projects";
 class Home extends Component {
   render() {
     return (
-      <main class="main">
-        <aside class="main-aside">
-          <section class="bio-section">
+      <main className="main">
+        <aside className="main-aside">
+          <section className="bio-section">
             <h3>Sobre mim:</h3>
-            <p class="p-grande">
+            <p className="p-grande">
               Sou estudante de Desenvolvimento Web na Trybe. Minha meta para os
               próximos anos é construir uma carreira como programador.
             </p>
           </section>
         </aside>
-        <section class="main-articles">
+        <section className="main-articles">
           <article>
             <h3>Habilidades</h3>
-            <div class="habilidade">
+            <div className="habilidade">
               <h4>JavaScript</h4>
-              <p class="p-pequeno">
+              <p className="p-pequeno">
                 Linguagem de programação muito utilizada no desenvolvimento web,
                 permitindo criar páginas interativas.
               </p>
             </div>
-            <div class="habilidade">
+            <div className="habilidade">
               <h4>React</h4>
-              <p class="p-pequeno">
+              <p className="p-pequeno">
                 Biblioteca de JavaScript desenvolvida pelo Facebook que tem como
                 foco a construção de interfaces de usuário em páginas web.
               </p>
             </div>
-            <div class="habilidade">
+            <div className="habilidade">
               <h4>HTML</h4>
-              <p class="p-pequeno">
+              <p className="p-pequeno">
                 Linguagem que estrutura as páginas web, permitindo sua
                 modelação.
               </p>
             </div>
-            <div class="habilidade">
+            <div className="habilidade">
               <h4>CSS</h4>
-              <p class="p-pequeno">
+              <p className="p-pequeno">
                 Permite adicionar estilos para páginas web, possibilitando sua
                 customização.
               </p>

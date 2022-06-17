@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Header from "./components/Header";
@@ -9,13 +9,17 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <img class="bg-img" src={backgroundImg} alt="Imagem de fundo - areia" />
+      <img
+        className="bg-img"
+        src={backgroundImg}
+        alt="Imagem de fundo - areia"
+      />
       <Header />
       <BrowserRouter>
-        {/* <Switch> */}
-        <Route exact path="/" component={Home} />
-        <Route path="/project/:id" component={Project} />
-        {/* </Switch> */}
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/project/:id" component={Project} />
+        </Switch>
       </BrowserRouter>
     </div>
   );
