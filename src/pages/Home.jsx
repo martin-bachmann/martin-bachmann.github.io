@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import ProjectDetails from "../components/ProjectDetails";
 import projects from "../data/projects";
 
@@ -60,7 +58,5 @@ class Home extends Component {
     );
   }
 }
-
-Home.propTypes = {};
 
 export default Home;

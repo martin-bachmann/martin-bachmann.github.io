@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 
 class Button extends Component {
   render() {
@@ -17,7 +16,5 @@ class Button extends Component {
     );
   }
 }
-
-Button.propTypes = {};
 
 export default Button;

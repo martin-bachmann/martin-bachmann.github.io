@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import Button from "../components/Button";
 
 class ProjectDetails extends Component {
@@ -19,7 +18,5 @@ class ProjectDetails extends Component {
     );
   }
 }
-
-ProjectDetails.propTypes = {};
 
 export default ProjectDetails;

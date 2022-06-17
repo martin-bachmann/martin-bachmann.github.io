@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import Loading from "../components/Loading";
 import Button from "../components/Button";
 import getProject from "../services/getProject";
@@ -68,7 +66,5 @@ class Project extends Component {
     );
   }
 }
-
-Project.propTypes = {};
 
 export default Project;
