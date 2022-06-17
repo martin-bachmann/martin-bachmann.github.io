@@ -12,10 +12,10 @@ function App() {
       <img class="bg-img" src={backgroundImg} alt="Imagem de fundo - areia" />
       <Header />
       <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/project/:id" component={Project} />
-        </Switch>
+        {/* <Switch> */}
+        <Route exact path="/" component={Home} />
+        <Route path="/project/:id" component={Project} />
+        {/* </Switch> */}
       </BrowserRouter>
     </div>
   );
