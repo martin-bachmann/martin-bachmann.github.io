@@ -44,7 +44,7 @@ class Project extends Component {
               ))}
             </aside>
 
-            <article className=".project-article">
+            <article className="project-article">
               <h2 className="project-h2">{title}</h2>
               <div className="project-description">
                 <h3 className="project-h3">Descrição</h3>

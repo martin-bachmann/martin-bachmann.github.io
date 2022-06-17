@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from "../components/Button";
+import "./projectDetails.css";
 
 class ProjectDetails extends Component {
   render() {
@@ -8,7 +9,7 @@ class ProjectDetails extends Component {
     } = this.props;
 
     return (
-      <div>
+      <div className="project-details-container">
         <h3>{`${title} - ${techs.reduce(
           (acc, tech) => `${acc}, ${tech}`
         )}`}</h3>

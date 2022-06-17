@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "./button.css";
 
 class Button extends Component {
   render() {
@@ -8,9 +9,13 @@ class Button extends Component {
     return (
       <>
         {id ? (
-          <Link to={`/project/${id}`}>Detalhes</Link>
+          <Link className="button" to={`/project/${id}`}>
+            Detalhes
+          </Link>
         ) : (
-          <Link to={`/`}>Voltar</Link>
+          <Link className="button" to={`/`}>
+            Voltar
+          </Link>
         )}
       </>
     );

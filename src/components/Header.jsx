@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import profileImage from "../data/images/perfil3.jpg";
 import githubLogo from "../data/images/github-brands.svg";
 import linkedInLogo from "../data/images/linkedin-brands.svg";
+import "./header.css";
 
 class Header extends Component {
   render() {
